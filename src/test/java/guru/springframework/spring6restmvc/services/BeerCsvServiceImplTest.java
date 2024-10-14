@@ -11,6 +11,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class BeerCsvServiceImplTest {
+
     BeerCsvService beerCsvService = new BeerCsvServiceImpl();
 
     @Test
@@ -23,6 +24,5 @@ class BeerCsvServiceImplTest {
         System.out.println(recs.size());
 
         assertThat(recs.size()).isGreaterThan(0);
-
     }
 }
